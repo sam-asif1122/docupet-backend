@@ -3,3 +3,8 @@ controllers:
     path: ../src/Controller/
     namespace: App\Controller
   type: attribute
+
+api_pet_create:
+  path: /api/pet/create
+  controller: App\Controller\PetApiController::new
+  methods: [POST]
